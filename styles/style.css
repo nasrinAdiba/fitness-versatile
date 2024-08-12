@@ -1,0 +1,388 @@
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* font-variation-settings:
+    "slnt" 0; */
+}
+
+*{
+    margin: 0 auto;
+
+}
+
+/* shared styles */
+
+body{
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+}
+
+.display-flex{
+    display: flex;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 78px;
+    color: white;
+}
+h2{
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+    
+}
+h3{
+    font-weight: 800;
+    font-size: 36px;
+    font-style: italic;
+    color: #E6533C;
+}
+h4{
+    font-weight: 900;
+    font-size: 28px;
+    color: white;
+}
+h5{
+    font-weight: 600px;
+    font-size: 18px;
+    color: white;
+}
+p{
+    font-weight: 400;
+    color: #8C8C8C;
+}
+.paragraph{
+        font-size: 14px;
+        margin: 14px 0px;
+}
+.text-align{
+    text-align: center;
+}
+.btn-orange{
+    font-weight: 600;
+    font-size: 18px;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background-color: #E6533C;
+    border: none;
+    color: white;
+}
+.btn{
+    font-weight: 600;
+    font-size: 18px;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background-color: #1E1E1E;
+    border: 2px solid white;
+    color: white;
+}
+.special-link{
+    
+    padding: 8px 20px;
+    width: 92px;
+    height: 38px;
+    border-radius: 46px;
+    background-color: #E6533C;
+}
+
+.list1{
+    margin-top: 12px;
+    padding-left: 5px;
+}
+
+.top-distance{
+    margin-top: 20px;
+}
+.bottom-distance{
+    margin-bottom: 20px;
+}
+
+ /* header styles */
+
+header{
+    padding-top: 20px;
+    height: 710px;
+    background-image: linear-gradient(to bottom, rgba(11, 11, 11, 1), #212121, #000000);
+}
+
+/* nav styles */
+
+.navbar{
+    
+    margin: 60px 100px 0 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* width: 465px; */
+.list-item{
+    list-style: none; 
+    padding-left: 0;
+    border: 1px solid #303030;
+    border-radius: 39px;
+}
+
+.list{
+    width: 47px;
+    height: 22px;
+    margin: 12px 46px;
+
+}
+.list-item a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+
+}
+
+/* banner styles */
+
+
+.banner-part1{
+    width: 50%;
+    margin-top: 96px;
+    margin-left: 100px;
+}
+
+.banner-text{
+    margin: 28px 0;
+    width: 500px;
+    font-size: 16px;
+}
+
+.banner-part2-image{
+    margin-top: 32px;
+    margin-right: 214px;
+width: 350px;
+height: 570px;
+}
+
+.card-1{
+    width: 190px;
+    height: 98px;
+    padding-top: 20px;
+    border-radius: 12px;
+    background-color: #393939;
+    opacity: 0.8;
+    position: absolute;
+    top: 280px;
+    right: 160px;
+}
+.card-1 h2{
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    
+}
+.card-2{
+    width: 190px;
+    height: 98px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #303030, #969696);
+    opacity: 0.8;
+    position: absolute;
+    top: 570px;
+    right: 470px;
+}
+.card-2-special{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #E6533C;
+}
+.card-2 h3{
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+}
+
+/* habit-part styles */
+
+.habit-part{
+    background-color: #000000;
+    /* margin: 100px 198px; */
+    padding-top: 100px;
+}
+
+.habit-text{
+    font-size: 14px;
+    width: 670px;
+    margin-top: 14px;
+}
+
+.circle-card{
+    display: flex;
+    margin: 0 198px;
+    padding-bottom: 58px;
+    
+}
+/* .circle-text{
+    font-size: 14px;
+    margin-top: 14px;
+} */
+
+.circle-card-1{
+    width: 22%;
+}
+.circle-card-image{
+    margin: 58px 0 30px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+.circle-card-2{
+    width: 22%;
+}
+
+.circle-card-3{
+    width: 22%;
+}
+
+.circle-card-4{
+    width: 22%;
+}
+
+
+/* section-Run styles */
+
+.section-Run{
+    background-color: #000000;
+    display: flex;
+    padding: 50px 0;
+    
+}
+.section-Run-items{
+    display: flex;
+    width: 900px;
+    height: 371px;
+    background-color: #222222;
+    border-radius: 18px;
+}
+.section-Run-text{
+    width: 60%;
+    margin: 40px 54px;
+}
+.section-Run-text button{
+    margin-top: 30px;
+}
+.section-Run-image{
+    width: 366px;
+    height: 312px;
+    margin: 30px 32px;
+    border-radius: 18px;
+}
+
+
+/* section-exercise styles */
+
+.section-exercise{
+    background-color: #000000;
+    padding: 50px 100px;
+}
+.exercise-image-part1{
+    display: grid;
+    grid-template-columns: 250px 520px 290px;
+    
+}
+.exercise-image-part2{
+    display: grid;
+    grid-template-columns: 425px 288px 347px;
+}
+
+
+/* BMI Calculator styles */
+
+.section-BMI{
+    background: #000;
+}
+.BMI-text{
+    width: 55%;
+    align-items: center;
+}
+
+.BMI-items{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.BMI-chart{
+    width: 30%;
+    align-items: center;
+    
+}
+
+.BMI-calculator{
+    width: 40%;
+    align-items: center;
+}
+.BMI-table{
+    margin-top: 30px;
+}
+
+.BMI-table, th, td{
+    border: 1px solid #393939;
+    border-collapse: collapse;
+}
+th{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    height: 30px;
+    width: 130px;
+    text-align: left;
+    padding-left: 15px;
+ }
+
+ td{
+    font-weight: 400;
+    font-size: 14px;
+    color: #919191;
+    padding-left: 15px;
+    height: 30px;
+    width: 130px;
+ }
+
+ .BMI-input input{
+    width: 210px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-right: 8px;
+    padding-left: 15px;
+    background-color: #393939;
+    border: none;
+    
+}
+.select-1{
+    width: 228px;
+    height: 48px;
+    color: #919191;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-right: 8px;
+    padding-left: 15px;
+    background-color: #393939;
+    border: none;
+}
+.select-2{
+    width: 470px;
+    height: 48px;
+    color: #919191;
+    border-radius: 8px;
+    margin: 12px 8px 20px 0;
+    
+    padding-left: 15px;
+    background-color: #393939;
+    border: none;
+}
