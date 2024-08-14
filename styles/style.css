@@ -14,10 +14,10 @@
 
 /* shared styles */
 
-body{
-    /* overflow-y: hidden; */
+/* body{
+    
     overflow-x: hidden;
-}
+} */
 
 .display-flex{
     display: flex;
@@ -36,9 +36,14 @@ h2{
 }
 h3{
     font-weight: 800;
-    font-size: 36px;
     font-style: italic;
     color: #E6533C;
+}
+.font-h3-small{
+    font-size: 36px;
+}
+.font-h3-large{
+    font-size: 70px;
 }
 h4{
     font-weight: 900;
@@ -54,9 +59,13 @@ p{
     font-weight: 400;
     color: #8C8C8C;
 }
-.paragraph{
+.paragraph-1{
         font-size: 14px;
         margin: 14px 0px;
+}
+.paragraph-2{
+    font-size: 16px;
+    margin: 14px 0px;
 }
 .text-align{
     text-align: center;
@@ -98,10 +107,10 @@ p{
 .top-distance{
     margin-top: 20px;
 }
-.bottom-distance{
-    margin-bottom: 20px;
-}
 
+.bottom-distance{
+    margin-bottom: 40px;
+}
  /* header styles */
 
 header{
@@ -286,16 +295,24 @@ height: 570px;
 
 .section-exercise{
     background-color: #000000;
-    padding: 50px 100px;
+    padding: 50px 142px;
+    
+}
+
+.section-exercise p{
+    width: 57%;
+    margin-bottom: 60px;
 }
 .exercise-image-part1{
     display: grid;
     grid-template-columns: 250px 520px 290px;
+    justify-content: center;
     
 }
 .exercise-image-part2{
     display: grid;
     grid-template-columns: 425px 288px 347px;
+    justify-content: center;
 }
 
 
@@ -307,13 +324,16 @@ height: 570px;
 .BMI-text{
     width: 55%;
     align-items: center;
+    padding-top: 80px;
 }
-
+.BMI-text p{
+margin-bottom: 60px;
+}
 .BMI-items{
     background-color: #222222;
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .BMI-chart{
@@ -326,8 +346,11 @@ height: 570px;
     width: 40%;
     align-items: center;
 }
+.BMI-calculator h4{
+    margin-bottom: 20px;
+}
 .BMI-table{
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .BMI-table, th, td{
@@ -338,7 +361,7 @@ th{
     font-weight: 500;
     font-size: 16px;
     color: white;
-    height: 30px;
+    height: 40px;
     width: 130px;
     text-align: left;
     padding-left: 15px;
@@ -349,7 +372,7 @@ th{
     font-size: 14px;
     color: #919191;
     padding-left: 15px;
-    height: 30px;
+    height: 40px;
     width: 130px;
  }
 
@@ -385,4 +408,127 @@ th{
     padding-left: 15px;
     background-color: #393939;
     border: none;
+}
+
+/* section-team styles */
+
+.section-team{
+    background-color: #000;
+    align-items: center;
+    padding: 60px 0;
+}
+.team-text{
+    width: 50%;
+}
+.team-text h2{
+    margin-bottom: 20px;
+}
+.team-Image{
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1A1A1A;
+    width: 76%;
+    border-radius: 18px;
+    
+}
+
+.team-Image img{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+}
+.team-image1{
+    position: relative;
+}
+.bottom-left1{
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+.team-image2{
+    position: relative;
+}
+.bottom-left2{
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+.team-image3{
+    position: relative;
+}
+.bottom-left3{
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+.team-image4{
+    position: relative;
+}
+.bottom-left4{
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+.team-image5{
+    position: relative;
+}
+.bottom-left5{
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+.team-image6{
+    position: relative;
+}
+.bottom-left6{
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+
+/* footer styles */
+
+.footer{
+    background-color: #1A1A1A;
+    padding: 80px;
+    
+}
+
+.footer-element{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: 85%;
+}
+
+.footer-text{
+    width: 30%;
+}
+
+.footer-list1{
+    width: 25%;
+}
+.footer-list1 h4{
+    padding-bottom: 20px;
+}
+.footer-list1 p{
+    padding: 5px;
+}
+
+.footer-list2{
+    width: 25%;
+}
+
+.footer-list2 h4{
+    padding-bottom: 20px;
+}
+.footer-list2 p{
+    padding: 5px;
+}
+hr{
+    color: #393939;
+    margin-bottom: 32px;
 }
