@@ -244,6 +244,9 @@ header{
     width: 45%;
     margin-top: 14px;
 }
+.habit-text p{
+    text-align: center;
+}
 
 .circle-card{
     width: 80%;
@@ -526,25 +529,37 @@ th{
 .unique-card1{
     width: 20%;
 }
-.unique-card1 img, p{
+.unique-card1 img{
     margin: 20px 0;
+}
+.unique-card1 p{
+    margin: 30px 0;
 }
 .unique-card2{
     width: 20%;
 }
-.unique-card2 img, p{
+.unique-card2 p{
+    margin: 30px 0;
+}
+.unique-card2 img{
     margin: 20px 0;
 }
 .unique-card3{
     width: 20%;
 }
-.unique-card3 img, p{
+.unique-card3 p{
+    margin: 30px 0;
+}
+.unique-card3 img{
     margin: 20px 0;
 }
 .unique-card4{
     width: 20%;
 }
-.unique-card4 img, p{
+.unique-card4 p{
+    margin: 30px 0;
+}
+.unique-card4 img{
     margin: 20px 0;
 }
 
