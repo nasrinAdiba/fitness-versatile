@@ -6,7 +6,18 @@
   /* font-variation-settings:
     "slnt" 0; */
 }
-
+.font-face{
+    font-family: "Miama";
+    font-style: italic;
+    font-weight: 500;
+    src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+}
+/* font-face {
+    font-family: 'Miama';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama.woff') format('woff');
+} */
 *{
     margin: 0 auto;
 
@@ -73,7 +84,7 @@ p{
 .btn-orange{
     font-weight: 600;
     font-size: 18px;
-    width: 224px;
+    width: 40%;
     height: 54px;
     border-radius: 42px;
     background-color: #E6533C;
@@ -83,7 +94,7 @@ p{
 .btn{
     font-weight: 600;
     font-size: 18px;
-    width: 224px;
+    width: 40%;
     height: 54px;
     border-radius: 42px;
     background-color: #1E1E1E;
@@ -155,34 +166,34 @@ header{
 
 
 .banner-part1{
-    width: 50%;
+    width: 45%;
     margin-top: 96px;
     margin-left: 100px;
 }
 
 .banner-text{
     margin: 28px 0;
-    width: 500px;
+    width: 80%;
     font-size: 16px;
 }
 
 .banner-part2-image{
     margin-top: 32px;
     margin-right: 214px;
-width: 350px;
-height: 570px;
+    width: 90%;
+    height: 600px;
 }
 
 .card-1{
-    width: 190px;
-    height: 98px;
+    width: 15%;
+    height: 90px;
     padding-top: 20px;
     border-radius: 12px;
     background-color: #393939;
     opacity: 0.8;
     position: absolute;
     top: 280px;
-    right: 160px;
+    right: 80px;
 }
 .card-1 h2{
     font-weight: 900;
@@ -191,15 +202,15 @@ height: 570px;
     
 }
 .card-2{
-    width: 190px;
-    height: 98px;
+    width: 15%;
+    height: 90px;
     border-radius: 12px;
     display: flex;
     align-items: center;
     background-image: linear-gradient(to bottom, #303030, #969696);
     opacity: 0.8;
     position: absolute;
-    top: 570px;
+    top: 600px;
     right: 470px;
 }
 .card-2-special{
@@ -224,13 +235,14 @@ height: 570px;
 
 .habit-text{
     font-size: 14px;
-    width: 670px;
+    width: 45%;
     margin-top: 14px;
 }
 
 .circle-card{
+    width: 80%;
     display: flex;
-    margin: 0 198px;
+    /* margin: 0 198px; */
     padding-bottom: 58px;
     
 }
@@ -240,24 +252,24 @@ height: 570px;
 } */
 
 .circle-card-1{
-    width: 22%;
+    width: 18%;
 }
 .circle-card-image{
     margin: 58px 0 30px;
-    width: 180px;
+    width: 100%;
     height: 180px;
     border-radius: 100px;
 }
 .circle-card-2{
-    width: 22%;
+    width: 18%;
 }
 
 .circle-card-3{
-    width: 22%;
+    width: 18%;
 }
 
 .circle-card-4{
-    width: 22%;
+    width: 18%;
 }
 
 
@@ -271,8 +283,8 @@ height: 570px;
 }
 .section-Run-items{
     display: flex;
-    width: 900px;
-    height: 371px;
+    width: 80%;
+    height: 370px;
     background-color: #222222;
     border-radius: 18px;
 }
@@ -284,7 +296,7 @@ height: 570px;
     margin-top: 30px;
 }
 .section-Run-image{
-    width: 366px;
+    width: 85%;
     height: 312px;
     margin: 30px 32px;
     border-radius: 18px;
@@ -295,11 +307,14 @@ height: 570px;
 
 .section-exercise{
     background-color: #000000;
-    padding: 50px 142px;
+    /* padding: 50px 142px; */
     
 }
-
-.section-exercise p{
+.exercise-text{
+    width: 78%;
+    text-align: left;
+}
+.exercise-text p{
     width: 57%;
     margin-bottom: 60px;
 }
